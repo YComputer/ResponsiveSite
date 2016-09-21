@@ -8,12 +8,12 @@
     <link href="css/normalize.css" rel="stylesheet">
     <!--<link href="css/cssresets.css" rel="stylesheet">    -->
     <link href="css/main.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <!--[if lte IE8]>
-    <p>您使用的浏览器版本过低</p>
+    <p class="browserupgrade">您使用的浏览器版本过低</p>
     <![endif]-->
 
     <header>
@@ -42,14 +42,18 @@
     <div class="container">
         <div class="transaction">
             <div class="trans-content">
-                <span>平台累计成交金额</span>
-                <span class="trans-money">19888</span>
-                <span>万元</span>
+                <div class="trans-data">
+                    <span>平台累计成交金额</span>
+                    <span class="trans-money">19888</span>
+                    <span>万元</span>
+                </div>
             </div>
-            <div class="trans-data">
-                <span>过去7日成交金额</span>
-                <span class="trans-money">19888</span>
-                <span>万元</span>
+            <div class="trans-content">
+                <div class="trans-data">
+                    <span>过去7日成交金额</span>
+                    <span class="trans-money">19888</span>
+                    <span>万元</span>
+                </div>
             </div>
             <div class="trans-report">
                 <a href="#">查看平台运营报告</a>
@@ -83,12 +87,12 @@
             </div>
         </section>
 
-        <div class="notice">
+        <div class="notice clearfix">
             <a href="#"><span>2015-12-31</span>元旦期间业务受理及值班公告</a>
             <a href="#" class="more">更多公告</a>
         </div>
 
-        <section class="product">
+        <section class="product clearfix">
             <h2>
                 固定期限产品
                 <em>甄选优质基金</em>
@@ -97,7 +101,7 @@
             </h2>
 
             <div class="product-content">
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -107,7 +111,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -117,7 +121,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -127,7 +131,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -137,7 +141,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -151,7 +155,7 @@
 
         </section>
 
-        <section class="product">
+        <section class="product clearfix">
             <h2>
                 固定期限产品
                 <em>甄选优质基金</em>
@@ -160,7 +164,7 @@
             </h2>
 
             <div class="product-content">
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -170,7 +174,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -180,7 +184,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -190,7 +194,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -200,7 +204,7 @@
                         <a href="#">购买</a>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item clearfix">
                     <h3><em>3</em>个月</h3>
                     <div class="info">
                         <p>约定年化收益率：<span class="year-rate">3.5%<i>起</i></span></p>
@@ -215,7 +219,7 @@
         </section>
 
         <nav class="footer">
-            <div class="footer-content">
+            <div class="footer-content clearfix">
                 <p class="brand"></p>
                 <ul>
                     <li class="title">关于我们</li>
@@ -259,10 +263,11 @@
 
     <footer>
         <ul>
-            <li><span class="icon icon-gs">北京工商</span></li>
-            <li><span class="icon icon-gs">北京工商</span></li>
-            <li><span class="icon icon-gs">北京工商</span></li>
-            <li><span class="icon icon-gs">北京工商</span></li>
+            <li><span class="icon icon-zfywxk">北京工商</span></li>
+            <li><span class="icon icon-visayz">北京工商</span></li>
+            <li><span class="icon icon-pcirk">北京工商</span></li>
+            <li><span class="icon icon-rzcx">北京工商</span></li>
+            <li><span class="icon icon-pcirk">北京工商</span></li>
         </ul>
         <p> 北京五颜六色科技有限公司 版权所有 2015-2016</p>
     </footer>
